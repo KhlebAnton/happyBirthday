@@ -15,6 +15,7 @@ boxs.forEach((box) => {
                 chek();
             } else if(box.id === 'yes') {
                 prise.classList.add('active')
+                prise.innerHTML += "<audio src='Arsen_Shakhunts_-_S_Dnem_Rozhdeniya_sample.mp3' autoplay controls='controls'></audio>"
             }
 
 
